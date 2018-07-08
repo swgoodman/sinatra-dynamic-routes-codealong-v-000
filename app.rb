@@ -23,4 +23,4 @@ class App < Sinatra::Base
     @one = params[:one]
     @two = params[:two]
     "#{@one*@two}"
-end
+  end
